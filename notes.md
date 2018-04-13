@@ -65,3 +65,24 @@ Relatively the same as modulo P Arithmetic (F~19~)
 > Python: pow(11, 3, 19) == 1
 This is the python function that lets you do modulo functions.
 This above stated implementation of the function is effectively 11^3^ mod 19
+
+#### Division:
+Defined as the inverse of multiplication (F~19~)
+
+- 2 * 4 = 8 => 8 / 4 = 2
+  - 2 times 4 equals 8
+  - This implies 8 when divided by four results in 2
+- 7 * 3 = 2 => 2 / 3 = 7
+  - 7 times 3 results in 21 which in a finite field bounded by 0 and 18 would result in 2 since the remainder of 21 in a finite field of 19 would result in 2.
+  - This implies that 2 when divided by 3 in a finite field of 19 results in 7.
+- 15 * 4 = 3 => 3 / 4 = 15
+  - 15 times 4 equals 60 which in the finite field bounded by 0 and 18 (essentially mod 19 or F~19~) results in 3.
+  - This implies that 3 when divided by 4 in a finite field of 19 results in 15.
+- 11 * 11 = 7 => 7 / 11 = 11
+  - 11 times 11 equals 121 which in the finite field of 19 bounded by 0 and 18 results in 7.
+  - Division being the inverse of multiplication implies that 11 when added to itself (11 times) reaches remainder of 7 within a finite field of 19 bounded by 0 and 18.
+
+> Division within finite fields are bounded and restrictive.
+> Multiplication can be seen as the number of times the same number is added to itself.
+> Division is the inverse of multiplication.
+> Division is essentially subtracting/adding the same number over and over again until the remainder is attained. 
