@@ -63,3 +63,5 @@ Relatively the same as modulo P Arithmetic (F~19~)
   - 11 multiplied by itself yields 1331 which in the finite field of 19 equates to 1 implying that 1330 is completely divisible by 19 (70 times).
 
 > Python: pow(11, 3, 19) == 1
+This is the python function that lets you do modulo functions.
+This above stated implementation of the function is effectively 11^3^ mod 19
