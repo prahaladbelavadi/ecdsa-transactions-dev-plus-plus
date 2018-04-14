@@ -6,4 +6,8 @@ Reference:
 - [Jimmy song programming blockchain](https://github.com/jimmysong/programmingbitcoin/blob/master/ch01.asciidoc)
 -
 
+
+
+---------------------
+
 [![Jimmy song lecture](https://img.youtube.com/vi/e6voIwB-An4/0.jpg)](https://www.youtube.com/watch?v=e6voIwB-An4)
