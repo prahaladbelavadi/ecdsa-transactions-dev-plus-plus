@@ -1,0 +1,25 @@
+
+# added by Anaconda3 5.0.1 installer
+export PATH="/Users/prahaladbelavadi/anaconda3/bin:$PATH"
+source ~/.git-bash-for-mac.sh
+
+
+# Android
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
+
+#Go export path
+export GOPATH=$HOME/go
+
+#alias ls -alt to la
+alias la='ls -alt'
+
+#alias git commands
+alias gst='git status'
+alias ga='git add .'
+alias gpom='git push origin master'
+
+
+
+#
